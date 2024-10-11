@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     
+        var obj={
+            username:"ranjith",
+            password:"Ra16nj08@"
+        }
+        var a=window.localStorage.setItem("user_data",JSON.stringify(obj));
+        var b=JSON.parse(window.localStorage.getItem("user_data"));
+        console.log(b);
+    </script>
+</body>
+</html>
